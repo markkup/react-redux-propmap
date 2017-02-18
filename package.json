@@ -1,0 +1,28 @@
+{
+  "name": "react-redux-propmap",
+  "version": "1.0.0",
+  "description": "Helper class for connecting props to react components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Markkup <info@markkup.com> (http://github.com/markkup)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markkup/react-redux-propmap.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "connect",
+    "props",
+    "flux",
+    "redux"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
+  }
+}
