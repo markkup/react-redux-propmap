@@ -49,8 +49,8 @@ function selectorFactory(dispatch, opts) {
   }
 }
 
-function connectProps(arg1, arg2, arg3, arg4) {
+function connectprops(arg1, arg2, arg3, arg4) {
   return connectAdvanced(selectorFactory, {propMap: arg1});
 }
 
-export { connectProps as connectProps }
+export { connectprops as connectprops }
