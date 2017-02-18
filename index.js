@@ -9,6 +9,7 @@ class PropEvent {
 
 export class PropMap {
   state = null;
+  ownProps = null;
   map(props) {
   }
   bindEvent(action) {
@@ -22,6 +23,7 @@ function selectorFactory(dispatch, opts) {
 
     var props = {};
     propMap.state = nextState;
+    propMap.ownProps = nextOwnProps;
     propMap.map(props);
 
     let hasEvents = false;
