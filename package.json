@@ -1,10 +1,10 @@
 {
   "name": "react-redux-propmap",
-  "version": "1.0.0",
+  "version": "0.1.3",
   "description": "Helper class for connecting props to react components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Markkup <info@markkup.com> (http://github.com/markkup)",
   "repository": {
@@ -21,8 +21,13 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "jest": "^19.0.2",
     "react": "^15.4.2",
     "react-redux": "^5.0.2",
     "redux": "^3.6.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "verbose": false
   }
 }
