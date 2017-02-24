@@ -3,8 +3,6 @@ import PropMap from "./PropMap"
 
 function selectorFactory(dispatch, opts) {
 
-  console.log("opts: ", opts)
-
   return (nextState, nextOwnProps) => {
 
     // instantiate propmap class
